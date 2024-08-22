@@ -1,0 +1,1 @@
+RtlSetProcessIsCritical is a Python script that interacts with Windows API to set a process as critical, ensuring it can't be terminated. This can be useful in scenarios where you want to safeguard critical processes from accidental or unauthorized termination.

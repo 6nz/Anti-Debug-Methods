@@ -3,6 +3,7 @@ import ctypes
 from ctypes import wintypes, windll
 
 # This script was tested on Win10 Pro/Win 11 Pro using process hacker dll injection. Probably blocks the other methods too...
+# This can prevent py shellcode injection
 
 # define the constants
 ProcessSignaturePolicyMitigation = 8

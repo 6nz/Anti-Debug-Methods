@@ -22,7 +22,7 @@ This script is designed to prevent unauthorized DLLs from being injected into a 
   - Run the script to apply the policy and prevent DLL injection.
   - The process will sleep for 120 seconds to allow for inspection.
 
-### 2. `DLL-Related/main.py`
+### 2. `DLL-Related/Detect-SRC-Modification.py`
 This script uses threading to run a continuous check on the `oldprog` function, ensuring that it hasn't been tampered with.
 
 - **Key Functions**:
